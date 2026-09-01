@@ -21,8 +21,9 @@ Wayback Machine crawler, so they can't be recovered from the archive:
 
 ## Addition beyond the archive
 
-A "Slides" call-to-action section was added (styled to match the existing
-"Program" section) linking to the workshop's presentation slides:
+A "Slides" call-to-action was added alongside the existing "Program" one,
+the two now sharing a single block as side-by-side tiles (stacking on
+mobile), linking to the workshop's presentation slides:
 https://drive.google.com/drive/folders/1Jk7rIG9u80ObDFnjWpus9Y13sB5z9isg
 
 ## Viewing locally
