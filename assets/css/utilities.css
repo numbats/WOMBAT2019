@@ -1,0 +1,19 @@
+.mtn8 { margin-top: -8em;}
+.pb8 { padding-bottom: 8em; }
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) { 
+    _::-webkit-full-page-media, _:future, :root  
+    /* target safari only */
+    /* https://gist.github.com/jbutko/6718701#gistcomment-2355697 */
+    /*
+        - https://jira.apps.monash.edu/browse/WEBUW-1499
+        - FF doesnt animate but displays,
+        - Without this fix, the M works on older device such as iPad 5th gen.
+        - Error(visibility) seems to exists only on iPhones (iPhone 11 Pro) and Safari Desktop, but not iOS dependant and it's device browsers as they use webview?
+        - 
+    */
+    .monash-m-new {
+        -webkit-clip-path: polygon(57.45% 0,50% 33%,42% 0,0 0,0 100%,27% 100%,27% 59%,37% 100%,63.4% 100%,73.6% 59%,73.6% 100%,100% 100%,100% 0,57.45% 0) !important;
+        clip-path: polygon(57.45% 0,50% 33%,42% 0,0 0,0 100%,27% 100%,27% 59%,37% 100%,63.4% 100%,73.6% 59%,73.6% 100%,100% 100%,100% 0,57.45% 0) !important;
+    }
+}
